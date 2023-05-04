@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Account</title>
+        <link rel="stylesheet" href="account1.css">
+        <link rel="stylesheet" href="style.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="bodydiv">
+            <div class="d-flex justify-content-around flex-column">
+                <div class="header d-flex justify-content-around align-items-center">
+                    <div class="d-flex header_div_size1 justify-content-between">
+                        <div class="d-flex justify-content-evenly align-items-center airplane_hotel mouse" id="flight">
+                            <div><img class="d-flex align-items-center header_airplane" src="plane2.png"></div>
+                            <div class="header_find">Find Flight</div>
+                        </div>
+                        <div class="d-flex align-items-center justify-content-evenly airplane_hotel mouse" id="hotel">
+                            <div><img class="d-flex align-items-center header_airplane" src="bed2.png"></div>
+                            <div class="header_find_stays">Find Stays</div>
+                        </div>
+                    </div>
+                    <div class="header_div_size2 d-flex justify-content-center mouse"><img class="header_golobe" src="Screenshot 2023-04-06 at 18.47.26.png"></div>
+                    <div class="header_div_size1 d-flex justify-content-evenly">
+                        <div class=" d-flex align-items-center" id="fav">
+                            <div><img class="header_heart" src="Screenshot 2023-04-16 at 22.56.07.png"></div>
+                            <div>Favourites</div>
+                        </div>
+                        <div class="person">
+                            <nav>
+                                <div onclick="toggleMenu()" class="mouse">
+                                    <img src="Screenshot 2023-04-16 at 20.28.28.png" class="user-pic">
+                                    John D.
+                                </div>
+                    
+                                <div class="sub-menu-wrap" id="subMenu">
+                                    <div class="sub-menu">
+                                        <div class="user-info">
+                                            <img src="Screenshot 2023-04-16 at 20.28.28.png">
+                                            <div>
+                                                <div>John Doe.</div>
+                                                <div>online</div>
+                                            </div>
+                                        </div>
+                                        <br>
+                                        <br>
+                    
+                                        <a href="#" class="sub-menu-link" id="acc">
+                                            <img src="Screenshot 2023-04-16 at 19.41.43.png">
+                                            <div>My account</div>
+                                            <span><img src="Screenshot 2023-04-20 at 18.11.14.png"></span>
+                                        </a>
+                    
+                                        <a href="#" class="sub-menu-link">
+                                            <img src="Screenshot 2023-04-16 at 19.42.02.png">
+                                            <div>Payments</div>
+                                            <span><img src="Screenshot 2023-04-20 at 18.11.14.png"></span>
+                                        </a>
+                    
+                                        <a href="#" class="sub-menu-link">
+                                            <img src="Screenshot 2023-04-16 at 19.42.11.png">
+                                            <div>settings</div>
+                                            <span><img src="Screenshot 2023-04-20 at 18.11.14.png"></span>
+                                        </a>
+                    
+                                        <hr>
+                    
+                                        <a href="#" class="sub-menu-link">
+                                            <img src="Screenshot 2023-04-16 at 19.42.18.png">
+                                            <div>Support</div>
+                                            <span><img src="Screenshot 2023-04-20 at 18.11.14.png"></span>
+                                        </a>
+                    
+                                        <a href="#" class="sub-menu-link">
+                                            <img src="Screenshot 2023-04-16 at 19.42.24.png">
+                                            <div>Logout</div>
+                                        </a>
+                    
+                                    </div>
+                                </div>                    
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-around align-items-center">
+                    <div class="header_div_size d-flex justify-content-end">
+                        <div class="down_line"></div>
+                    </div>
+                    <div class="header_div_size2"></div>
+                    <div class="header_div_size"></div>
+                </div>
+            </div>
+
+            <div class="d-flex justify-content-center">
+                <div class="size85">
+                    <div class="m2">
+                        <img class="bg" src="profileBack.jpeg">
+                        <div class="d-flex justify-content-end"><input class="btn btn-success text-dark upup btn-img" id="numberBTN3"  type="image" src="Screenshot 2023-04-25 at 02.57.07.png"></div>
+                        <div class="upup2 d-flex justify-content-center align-items-end flex-row">
+                            <img class="pr" src="Screenshot 2023-04-16 at 20.28.28.png">
+                            <img class="pr2" src="Screenshot 2023-04-25 at 02.51.43.png">
+                        </div>
+                        <div>
+                            <div class="john">John Doe.</div>
+                            <div class="email">john.doe@gmail.com</div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="up-card">
+                            <div class="d-flex justify-content-around">
+                                <div class="head d-flex align-items-center mouse" id="acc1">Account</div>
+                                <div class="vr"></div>
+                                <div class="head d-flex align-items-center mouse" id="his">History</div>
+                                <div class="vr"></div>
+                                <div class="head d-flex align-items-center mouse" id="pay">Payment methods</div>
+                            </div>
+                            <div class="d-flex justify-content-start">
+                                <div class="down_line2"></div>
+                            </div>
+                        </div>                            
+                    </div>
+
+                    <div class="m2">
+                        <div class="account">Account</div>
+                        <div class="whitebox d-flex flex-column justify-content-between">
+                            <div class="d-flex justify-content-between">
+                                <div>
+                                    <div class="up">Name</div>
+                                    <div class="down">John Doe</div>
+                                </div>
+                                <div><input class="btn btn-outline-success text-dark btn-img" id="numberBTN4"  type="image" src="Screenshot 2023-04-25 at 02.23.13.png"></div>
+                            </div>
+
+                            <div class="d-flex justify-content-between">
+                                <div>
+                                    <div class="up">Email</div>
+                                    <div class="down">john.doe@gmail.com</div>
+                                </div>
+                                <div class="d-flex">
+                                    <div><input class="btn btn-outline-success text-dark btn-img" id="numberBTN4"  type="image" src="Screenshot 2023-04-25 at 02.23.23.png"></div>
+                                    <div><input class="btn btn-outline-success text-dark btn-img m" id="numberBTN4"  type="image" src="Screenshot 2023-04-25 at 02.23.13.png"></div>
+                                </div>
+                            </div>
+
+                            <div class="d-flex justify-content-between">
+                                <div>
+                                    <div class="up">Password</div>
+                                    <div class="down">************</div>
+                                </div>
+                                <div><input class="btn btn-outline-success text-dark btn-img" id="numberBTN4"  type="image" src="Screenshot 2023-04-25 at 02.23.13.png"></div>
+                            </div>
+
+                            <div class="d-flex justify-content-between">
+                                <div>
+                                    <div class="up">Phone number</div>
+                                    <div class="down">+1 000-000-0000</div>
+                                </div>
+                                <div><input class="btn btn-outline-success text-dark btn-img" id="numberBTN4"  type="image" src="Screenshot 2023-04-25 at 02.23.13.png"></div>
+                            </div>
+
+                            <div class="d-flex justify-content-between">
+                                <div>
+                                    <div class="up">Address</div>
+                                    <div class="down">St 32 main downtown, Los Angeles, California, USA</div>
+                                </div>
+                                <div><input class="btn btn-outline-success text-dark btn-img" id="numberBTN4"  type="image" src="Screenshot 2023-04-25 at 02.23.13.png"></div>
+                            </div>
+
+                            <div class="d-flex justify-content-between">
+                                <div>
+                                    <div class="up">Date of birth</div>
+                                    <div class="down">01-01-1992</div>
+                                </div>
+                                <div><input class="btn btn-outline-success text-dark btn-img" id="numberBTN4"  type="image" src="Screenshot 2023-04-25 at 02.23.13.png"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="d-flex flex-column align-items-center">
+                <div class="email-box d-flex flex-column justify-content-center">
+                    <div class="email-box-text1">Subscribe Newsletter</div>
+                    <div class="email-box-travel">The Travel</div>
+                    <div class="email-box-sm">Get inspired! Receive travel discounts, tips and behind the scenes stories.</div>
+                    <div class="d-flex">
+                        <div><input id="email-box-email" placeholder="Your email address" type="email"></div>
+                        <div class="btn btn-dark d-flex align-items-center" id="darkBtn_">Subscribe</div>
+                    </div>
+                </div>
+                <div class="footer d-flex align-items-end justify-content-center">
+                    <div class="d-flex align-items-start justify-content-around footer_div">
+                        <div class="d-flex align-items-center golobe_div"><img class="footer_golobe d-flex justify-content-start" src="footer.png"></div>
+
+                        <div>
+                            <div><span class="span1">Our Destinations</span></div>
+                            <div class="footer_sm_text">Canada</div>
+                            <div class="footer_sm_text">Alaksa</div>
+                            <div class="footer_sm_text">France</div>
+                            <div class="footer_sm_text">Iceland</div>
+                        </div>
+
+                        <div>
+                            <div><span class="span1">Our Activities</span></div>
+                            <div class="footer_sm_text">Northern Lights</div>
+                            <div class="footer_sm_text">Cruising & sailing</div>
+                            <div class="footer_sm_text">Multi-activities</div>
+                            <div class="footer_sm_text">Kayaing</div>
+                        </div>
+
+                        <div>
+                            <div><span class="span1">Travel Blogs</span></div>
+                            <div class="footer_sm_text">Bali Travel Guide</div>
+                            <div class="footer_sm_text">Sri Lanks Travel Guide</div>
+                            <div class="footer_sm_text">Peru Travel Guide</div>
+                            <div class="footer_sm_text">Bali Travel Guide</div>
+                        </div>
+
+                        <div>
+                            <div><span class="span1">About Us</span></div>
+                            <div class="footer_sm_text">Our Story</div>
+                            <div class="footer_sm_text">Work with us</div>
+                        </div>
+
+                        <div>
+                            <div><span class="span1">Contact Us</span></div>
+                            <div class="footer_sm_text">Our Story</div>
+                            <div class="footer_sm_text">Work with us</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script>
+            let subMenu = document.getElementById("subMenu");
+    
+            function toggleMenu(){
+                subMenu.classList.toggle("open-menu");
+            }
+
+            document.querySelector('#darkBtn_').onclick = function() {
+                location.href = 'account1.html';
+            };
+
+            document.querySelector('.header_golobe').onclick = function() {
+                location.href = 'index.html';
+            };
+
+            document.querySelector('#hotel').onclick = function() {
+                location.href = 'Hotel home page.html';
+            };
+
+            document.querySelector('#flight').onclick = function() {
+                location.href = 'flight home pg.html';
+            };
+
+            document.querySelector('#fav').onclick = function() {
+                location.href = 'favourites.html';
+            };
+
+            document.querySelector('#acc').onclick = function() {
+                location.href = 'account1.html';
+            };
+
+            document.querySelector('#acc1').onclick = function() {
+                location.href = 'account1.html';
+            };
+
+            document.querySelector('#his').onclick = function() {
+                location.href = 'account2.html';
+            };
+
+            document.querySelector('#pay').onclick = function() {
+                location.href = 'account4.html';
+            };
+        </script>
+    </body>
+</html>

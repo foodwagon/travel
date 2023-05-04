@@ -1,0 +1,475 @@
+html , body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.grayB{
+    width: 100%;
+    height: 100%;
+    background-color: #FAFBFC;
+}
+
+.header{
+    height: 65px;
+    background-color: white;
+}
+
+.mouse{
+    cursor: pointer;
+}
+
+.header_div_size{
+    width: 18%;
+}
+
+.header_div_size1{
+    width: 18%;
+    height: 38px;
+}
+
+.header_div_size2{
+    width: 20%;
+}
+
+.airplane_hotel{
+    width: 47%;
+}
+
+.header_airplane{
+    width: 22.5px;
+    height: 19.5px;
+    object-fit: cover;
+}
+
+.header_find{
+    width: 79px;
+    height: 17px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: black;
+}
+
+.header_golobe{
+    width: 100px;
+    height: 40px;
+}
+
+.header_find_stays{
+    width: 79px;
+    height: 17px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: black;
+}
+
+.header_heart{
+    width: 25px;
+    height: 20px;
+    object-fit: cover;
+}
+
+.down_line{
+    width: 46%;
+    height: 5px;
+    background: #8DD3BB;
+}
+
+.person{
+    z-index: 100;
+}
+
+.arrow{
+    width: 24px;
+    height: 22px;
+}
+
+.pink{
+    width: 48px;
+    height: 17px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FF8682;
+}
+
+.gray{
+    height: 17px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #112211;
+    opacity: 0.75;
+}
+
+.wid1{
+    margin-top: 30px;
+}
+
+.size85{
+    width: 85%;
+}
+
+#numberBTN2{
+    border: 1px solid #8DD3BB;
+}
+
+#numberBTN2::-ms-value{
+    color: #112211;
+}
+
+#numberBTN2:hover{
+    background-color: #8DD3BB;
+}
+
+#numberBTN2-2{
+    border: 1px solid #8DD3BB;
+    height: 38px;
+    width: 40px;
+    padding: 0.65rem .75rem;
+}
+
+#numberBTN2-2::-ms-value{
+    color: #112211;
+}
+
+#numberBTN2-2:hover{
+    background-color: #8DD3BB;
+}
+
+.icon{
+    height: 17px;
+    margin-right: 3px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+#numberBTN3{
+    border:1px solid#8DD3BB;
+    background-color: #8DD3BB;
+}
+
+#numberBTN3::-ms-value{
+    color: #112211;
+}
+
+#numberBTN3:hover{
+    background-color: #8DD3BB;
+}
+
+.left{
+    margin-top: 30px;
+}
+
+.right{
+    width: 18%;
+}
+
+.verygood{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13.5px;
+    line-height: 15px;
+    color: #112211;
+    margin-left:7px;
+}
+
+.m240{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 29px;
+    text-align: end;
+    color: #FF8682;
+    margin-bottom: 23px;
+}
+
+#numberBTN4{
+    border: 1px solid #8DD3BB;
+    border-radius: 4px;
+    padding: 2.5px 5px;
+}
+
+#numberBTN4::-ms-value{
+    width: 15px;
+    height: 15px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 15px;
+    color: #112211;
+}
+
+#numberBTN4:hover{
+    background-color: #8DD3BB;
+}
+
+.emr{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    color: #112211;
+}
+
+.img-airplane{
+    width: 100%;
+    border-radius: 12px;
+    margin: 30px 0;
+}
+
+.round-img{
+    width: 10.5%;
+    border-radius: 12px;
+    margin-top: 15px;
+}
+
+.round-img1{
+    width: 100%;
+}
+
+.round-img:hover{
+    width: 11%;
+    border-radius: 16px;
+    box-shadow: 0px 4px 16px #8dd3ba8d;
+}
+
+.basic{
+    width: 333px;
+    height: 30px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 30px;
+    color: #112211;
+}
+
+.limebox{
+    border: 2px solid black;
+}
+
+.clock{
+    width: 14px;
+    margin-right: 4px;
+}
+
+.preFLIGHT{
+    width: 531px;
+    height: 20px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #112211;
+    opacity: 0.75;
+}
+
+.greenC{
+    padding: 17px;
+    background: rgba(141, 211, 187, 0.6);
+    border-radius: 8px;
+    height: 100px;
+    margin-top: 30px;
+}
+
+.img-barati1{
+    height: 85px;
+    border: 1px solid #8DD3BB;
+    border-radius: 8px;
+}
+
+.img-barati2{
+    height: 85px;
+}
+
+.img-barati3{
+    height: 70px;
+}
+
+.whitecard{
+    padding: 24px;
+    height: 287px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 16px rgba(17, 34, 17, 0.05);
+    border-radius: 12px;
+    margin-top: 30px;
+}
+
+.whitecard:hover{
+    padding: 26px;
+    box-shadow: 0px 4px 16px #8dd3ba8d;
+}
+
+.return{
+    width: 209px;
+    height: 25px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    color: #112211;
+}
+
+.hm{
+    width: 76px;
+    height: 24px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #112211;
+    opacity: 0.75;
+}
+
+.pm12{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #112211;
+}
+
+.smgray{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #112211;
+    opacity: 0.6;
+    margin-left: 3px;
+}
+
+.email-box{
+    background-image: url(smth.jpg);
+    width: 85%;
+    height: 305px;
+    box-shadow: 0px 4px 16px rgba(17, 34, 17, 0.05);
+    border-radius: 20px;
+    padding: 0px 24px;
+    z-index: 10;
+    margin-bottom: -130px;
+    margin-top: 80px
+}
+
+.email-box-text1{
+    width: 364px;
+    height: 108px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 54px;
+    color: #112211;
+    margin-bottom: 24px;
+}
+
+.email-box-travel{
+    width: 117px;
+    height: 25px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    color: #112211;
+    opacity: 0.8;
+    margin-bottom: 8px;
+}
+
+.email-box-sm{
+    width: 593px;
+    height: 20px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #112211;
+    opacity: 0.7;
+    margin-bottom: 16px;
+}
+
+#email-box-email{
+    width: 473px;
+    height: 56px;
+    background: #FFFFFF;
+    border-radius: 4px;
+    border:0.1px white solid;
+    padding: 15px;
+}
+
+::placeholder {
+    color: #333236d3;
+    opacity: 1; 
+}
+
+#darkBtn_{
+    background-color: #112211;
+    border-color: #112211;
+    margin-left: 16px;
+}
+
+.footer{
+    gap: 64px;
+    width: 100%;
+    height: 380px;
+    background: #8DD3BB;
+}
+
+.footer_golobe{
+    gap: 24px;
+    width: 110px;
+    height: 80px;
+}
+
+.span1{
+    width: 149px;
+    height: 20px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 40px;
+    color: #112211;
+}
+
+.footer_sm_text{
+    height: 17px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #112211;
+    opacity: 0.7;
+    margin-bottom: 10px;
+}
+
+.footer_div{
+    width: 89%;
+    height: 53%;
+}
+
+.golobe_div{
+    height: 155px;
+}
+
+.wid2{
+    width: 100%;
+}
+
+input[type="checkbox"] {
+    background-color: #fafbfc;
+    border: 1.5px solid rgb(29, 29, 29);
+}
+
+input[type="checkbox"]:checked{
+    background-color: #8DD3BB;
+    border: 1.5px solid #8DD3BB;
+}
+
+.wid7{
+    width: 32%;
+}

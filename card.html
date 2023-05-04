@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <title>login forgot password</title>
+        <link rel="stylesheet" href="card.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <div class="d-flex align-items-center justify-content-center wid100">
+            <div class="d-flex login justify-content-between align-items-center flex-wrap">
+                <div><img class="login_img" src="Screenshot 2023-04-06 at 19.11.54.png"></div>
+
+                <div class="wid2 wid200">
+                    <div><img class="logo_login" src="Screenshot 2023-04-06 at 18.47.26.png"></div>
+                    <div>
+                        <div>
+                            <div class="d-flex mouse align-items-center mouse" id="back">
+                                <div><img class="log_in_foget_img" src="left-arrow.png"></div>
+                                <div>Back</div>
+                            </div>
+                            <div class="login_login">Add a payment method</div>
+                            <div class="login_small">Let's get you all set up so you can access your personal account.</div>
+                        </div>
+
+                        <div>
+                            <div class="d-flex"><input class="email_login" placeholder="4321 4321 4321 4321" type="tel" inputmode="numeric" pattern="[0-9\s]{13,19}" autocomplete="cc-number" maxlength="19"><div><img class="hidden_login" src="Screenshot 2023-04-24 at 18.02.35.png"></div></div>
+                            <div><img class="lil_icones" src="Screenshot 2023-04-24 at 17.59.11.png"></div>
+                            <div class="d-flex flex-column">
+                                <div class="d-flex justify-content-between">
+                                    <div class="wid">
+                                        <div><input class="email_login" placeholder="02/27" type="datetime"></div>
+                                        <div><img class="lil_icones" src="Screenshot 2023-04-24 at 17.59.31.png"></div>
+                                    </div>
+                                    <div class="wid">
+                                        <div><input class="email_login" placeholder="123" type="number"></div>
+                                        <div><img class="lil_icones" src="Screenshot 2023-04-24 at 17.59.47.png"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="d-flex"><input class="psw_login" placeholder="John Doe" type="text"></div>
+                            <div><img class="lil_icones" src="Screenshot 2023-04-24 at 18.00.25.png"></div>
+                            <div class="d-flex"><input class="psw_login" placeholder="United States" type="password"><div><img class="hidden_login" src="down-arrow.png"></div></div>
+                            <div><img class="lil_icones" src="Screenshot 2023-04-24 at 18.00.06.png"></div>
+                        </div>
+
+                        <div class="d-flex align-items-center"><input class="checkbox_login form-check-input" type="checkbox"> Securely save my information for 1-click checkout</div>
+
+                        <div>
+                            <div><input class="login_btn" type="submit" value="Add payment method"></div>
+                        </div>
+
+                        <div class=" d-flex align-items-centers justify-content-center">
+                            <div class="longtxt">By confirming your subscription, you allow The Outdoor Inn Crowd Limited to charge your card for this payment and future payments in accordance with their terms. You can always cancel your subscription.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script>
+            let emailinput = document.querySelector('.email_login');
+            // document.querySelector('.login_btn_psw').onclick = function() {
+            //     if(emailinput.value != ''){
+            //         location.href = 'http://127.0.0.1:5500/Final%20Project/set%20a%20psw.html';
+            //     }else{
+            //         emailinput.style.border = '2px solid red';
+            //     }
+            // };
+
+            document.querySelector('#back').onclick = function() {
+                location.href = 'sign up.html';
+            };
+
+            document.querySelector('.login_btn').onclick = function() {
+                location.href = 'Hotel home page.html';
+            };
+        </script>
+    </body>
+
+</html>
