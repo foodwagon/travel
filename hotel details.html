@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Hotel details</title>
+        <link rel="stylesheet" href="hotel details.css">
+        <link rel="stylesheet" href="style.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <div class="bodydiv">
+            <div class="d-flex justify-content-around flex-column">
+                <div class="header d-flex justify-content-around align-items-center">
+                    <div class="d-flex header_div_size1 justify-content-between">
+                        <div class="d-flex justify-content-evenly align-items-center airplane_hotel mouse" id="flight">
+                            <div><img class="d-flex align-items-center header_airplane" src="plane2.png"></div>
+                            <div class="header_find">Find Flight</div>
+                        </div>
+                        <div class="d-flex align-items-center justify-content-evenly airplane_hotel mouse" id="hotel">
+                            <div><img class="d-flex align-items-center header_airplane" src="bed2.png"></div>
+                            <div class="header_find_stays">Find Stays</div>
+                        </div>
+                    </div>
+                    <div class="header_div_size2 d-flex justify-content-center mouse"><img class="header_golobe" src="Screenshot 2023-04-06 at 18.47.26.png"></div>
+                    <div class="header_div_size1 d-flex justify-content-evenly">
+                        <div class=" d-flex align-items-center" id="fav">
+                            <div><img class="header_heart" src="Screenshot 2023-04-16 at 22.56.07.png"></div>
+                            <div>Favourites</div>
+                        </div>
+                        <div class="person">
+                            <nav>
+                                <div onclick="toggleMenu()" class="mouse">
+                                    <img src="Screenshot 2023-04-16 at 20.28.28.png" class="user-pic">
+                                    John D.
+                                </div>
+                    
+                                <div class="sub-menu-wrap" id="subMenu">
+                                    <div class="sub-menu">
+                                        <div class="user-info">
+                                            <img src="Screenshot 2023-04-16 at 20.28.28.png">
+                                            <div>
+                                                <div>John Doe.</div>
+                                                <div>online</div>
+                                            </div>
+                                        </div>
+                                        <br>
+                                        <br>
+                    
+                                        <a href="#" class="sub-menu-link" id="acc">
+                                            <img src="Screenshot 2023-04-16 at 19.41.43.png">
+                                            <div>My account</div>
+                                            <span><img src="Screenshot 2023-04-20 at 18.11.14.png"></span>
+                                        </a>
+                    
+                                        <a href="#" class="sub-menu-link">
+                                            <img src="Screenshot 2023-04-16 at 19.42.02.png">
+                                            <div>Payments</div>
+                                            <span><img src="Screenshot 2023-04-20 at 18.11.14.png"></span>
+                                        </a>
+                    
+                                        <a href="#" class="sub-menu-link">
+                                            <img src="Screenshot 2023-04-16 at 19.42.11.png">
+                                            <div>settings</div>
+                                            <span><img src="Screenshot 2023-04-20 at 18.11.14.png"></span>
+                                        </a>
+                    
+                                        <hr>
+                    
+                                        <a href="#" class="sub-menu-link">
+                                            <img src="Screenshot 2023-04-16 at 19.42.18.png">
+                                            <div>Support</div>
+                                            <span><img src="Screenshot 2023-04-20 at 18.11.14.png"></span>
+                                        </a>
+                    
+                                        <a href="#" class="sub-menu-link">
+                                            <img src="Screenshot 2023-04-16 at 19.42.24.png">
+                                            <div>Logout</div>
+                                        </a>
+                    
+                                    </div>
+                                </div>                    
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-around align-items-center">
+                    <div class="header_div_size d-flex justify-content-end">
+                        <div class="down_line"></div>
+                    </div>
+                    <div class="header_div_size2"></div>
+                    <div class="header_div_size"></div>
+                </div>
+            </div> 
+
+            <div class="d-flex justify-content-center">
+                <div class="size85 d-flex justify-content-between flex-column">
+                    <div>
+                        <div class="d-flex align-items-center wid1">
+                            <div class="pink">Turkey</div>
+                            <div><img class="arrow" src="Screenshot 2023-04-20 at 18.11.14.png"></div>
+                            <div class="pink">Istanbul</div>
+                            <div><img class="arrow" src="Screenshot 2023-04-20 at 18.11.14.png"></div>
+                            <div class="gray">CVK Park Bosphorus Hotel Istanbul</div>
+                        </div>
+                        <div class="d-flex align-items-center justify-content-between">
+                            <div class="wid10">
+                                <div class="d-flex justify-content-between align-items-center m-up">
+                                    <div class="cvk">CVK Park Bosphorus Hotel Istanbul</div>
+                                    <div class="d-flex align-items-center justify-content-center">
+                                        <div class="d-flex align-items-center">
+                                            <img class="star" src="star.png">
+                                            <img class="star" src="star.png">
+                                            <img class="star" src="star.png">
+                                            <img class="star" src="star.png">
+                                            <img class="star" src="star.png">
+                                        </div>
+                                        <div class="startxt">5 Star Hotel</div>
+                                    </div>
+                                </div>
+                                <div class="d-flex align-items-center">
+                                    <img class="icon" src="Screenshot 2023-04-20 at 21.09.25.png">
+                                    <div class="icontxt">Gümüssuyu Mah. Inönü Cad. No:8, Istanbul 34437</div>
+                                </div>
+                                <div class="d-flex align-items-center m">
+                                    <div><input class="btn btn-outline-success text-dark" id="numberBTN4" type="submit" value="4.2"></div>
+                                    <div class="verygood"><b>Very good</b> 54 reviews</div>
+                                </div>
+                            </div>
+                            <div class="right d-flex flex-column justify-content-end wid11">
+                                <div class="m240">$240<span class="m104-sm">/night</span></div>
+                                <div class="d-flex justify-content-between">
+                                    <div><input class="btn btn-outline-success text-dark" id="numberBTN2" type="submit" value="♡"></div>
+                                    <div><input class="btn btn-outline-success text-dark" id="numberBTN2-2" type="image" src="share-2.png"></div>
+                                    <div><input class="btn btn-success text-dark" id="numberBTN3-3" type="submit" value="Book now"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="d-flex justify-content-between">
+                            <div class="wid-img1"><img class="big-img-collage" src="Screenshot 2023-04-24 at 19.25.04.png"></div>
+                            <div class="d-flex wid-img-2 flex-wrap justify-content-between">
+                                <div class="img-collage d-flex justify-content-start align-items-start"><img class="img-collage1" src="Screenshot 2023-04-24 at 19.21.14.png"></div>
+                                <div class="img-collage d-flex justify-content-end align-items-start"><img class="img-collage1 round1" src="Screenshot 2023-04-24 at 19.21.19.png"></div>
+                                <div class="img-collage d-flex justify-content-start align-items-end"><img class="img-collage1" src="Screenshot 2023-04-24 at 19.21.34.png"></div>
+                                <div class="img-collage d-flex justify-content-end align-items-end"><img class="img-collage1 round2" src="iuytrsdfg.png"></div>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-between">
+                            <div class="wid-img1"></div>
+                            <div class="wid-img-2 d-flex justify-content-end">
+                                <div class="d-flex justify-content-end img-collage2"><input class="btn btn-success text-dark img-collage1 up" id="numberBTN3" type="submit" value="View all photos"></div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="m m2-up"><hr></div>
+
+                    <div class="hei d-flex flex-column justify-content-around">
+                        <div>
+                            <div class="overview">Overview</div>
+                            <div class="verylong">Located in Taksim Gmsuyu, the heart of Istanbul, the CVK Park Bosphorus Hotel Istanbul has risen from the ashes of the historic Park Hotel, which also served as Foreign Affairs Palace 120 years ago and is hosting its guests by assuming this hospitality mission. With its 452 luxurious rooms and suites, 8500 SPA and fitness area, 18 meeting rooms including 4 dividable ones and 3 terraces with Bosphorus view, Istanbuls largest terrace with Bosphorus view (4500) and latest technology infrastructure, CVK Park Bosphorus Hotel Istanbul is destined to be the popular attraction point of the city. Room and suite categories at various sizes with city and Bosphorus view, as well as 68 separate luxury suites, are offered to its special guests as a wide variety of selection.</div>
+                        </div>
+                        <div class="d-flex st justify-content-between">
+                            <div class="review1 d-flex flex-column justify-content-between">
+                                <div class="r42">4.2</div>
+                                <div>
+                                    <div class="vg">Very good</div>
+                                    <div class="r371">371 reviews</div>
+                                </div>
+                            </div>
+                            <div class="review d-flex flex-column justify-content-between">
+                                <img class="stars3" src="Screenshot 2023-04-24 at 22.15.44.png">
+                                <div class="reviewtxt">Near park</div>
+                            </div>
+                            <div class="review d-flex flex-column justify-content-between">
+                                <img class="stars3" src="Screenshot 2023-04-24 at 22.15.44.png">
+                                <div class="reviewtxt">Near nightlife</div>
+                            </div>
+                            <div class="review d-flex flex-column justify-content-between">
+                                <img class="stars3" src="Screenshot 2023-04-24 at 22.15.44.png">
+                                <div class="reviewtxt">Near theater</div>
+                            </div>
+                            <div class="review d-flex flex-column justify-content-between">
+                                <img class="stars3" src="Screenshot 2023-04-24 at 22.15.44.png">
+                                <div class="reviewtxt">Clear Hotel</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="m m2-up"><hr></div>
+
+                    <div>
+                        <div class="availeble">Available Rooms</div>
+                        <div>
+                            <div class="d-flex align-items-center justify-content-between">
+                                <div class="d-flex align-items-center justify-content-between wid12">
+                                    <img class="hotel-img" src="Screenshot 2023-04-25 at 01.20.14.png">
+                                    <div>Superior room - 1 double bed or 2 twin beds</div>
+                                </div>
+                                <div class="d-flex align-items-center justify-content-between wid13">
+                                    <div>$240<span>/night</span></div>
+                                    <div><input class="btn btn-success text-dark" id="numberBTN3-3" type="submit" value="Book now"></div>
+                                </div>
+                            </div>
+
+                            <hr>
+
+                            <div class="d-flex align-items-center justify-content-between">
+                                <div class="d-flex align-items-center justify-content-between wid12">
+                                    <img class="hotel-img" src="Screenshot 2023-04-25 at 01.20.28.png">
+                                    <div>Superior room - City view - 1 double bed or 2 twin beds</div>
+                                </div>
+                                <div class="d-flex align-items-center justify-content-between wid13">
+                                    <div>$280<span>/night</span></div>
+                                    <div><input class="btn btn-success text-dark" id="numberBTN3-3" type="submit" value="Book now"></div>
+                                </div>
+                            </div>
+
+                            <hr>
+                            
+                            <div class="d-flex align-items-center justify-content-between">
+                                <div class="d-flex align-items-center justify-content-between wid12">
+                                    <img class="hotel-img" src="Screenshot 2023-04-25 at 01.20.34.png">
+                                    <div>Superior room - City view - 1 double bed or 2 twin beds</div>
+                                </div>
+                                <div class="d-flex align-items-center justify-content-between wid13">
+                                    <div>$320<span>/night</span></div>
+                                    <div><input class="btn btn-success text-dark" id="numberBTN3-3" type="submit" value="Book now"></div>
+                                </div>
+                            </div>
+
+                            <hr>
+
+                            <div class="d-flex align-items-center justify-content-between">
+                                <div class="d-flex align-items-center justify-content-between wid12">
+                                    <img class="hotel-img" src="Screenshot 2023-04-25 at 01.20.34.png">
+                                    <div>Superior room - City view - 1 double bed or 2 twin beds</div>
+                                </div>
+                                <div class="d-flex align-items-center justify-content-between wid13">
+                                    <div>$350<span>/night</span></div>
+                                    <div><input class="btn btn-success text-dark" id="numberBTN3-3" type="submit" value="Book now"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="m m2-up"><hr></div>
+
+                    <div>
+                        <div class="d-flex align-items-center justify-content-between m2">
+                            <div class="lm">Location/Map</div>
+                            <div><input class="btn btn-success text-dark" id="numberBTN3-3" type="submit" value="View on google maps"></div>
+                        </div>
+                        <img class="map" src="Screenshot 2023-04-25 at 01.47.30.png">
+                        <div class="d-flex align-items-center">
+                            <img class="icon" src="Screenshot 2023-04-20 at 21.09.25.png">
+                            <div class="icontxt">Gümüssuyu Mah. Inönü Cad. No:8, Istanbul 34437</div>
+                        </div>
+                    </div>
+
+                    <div class="m m2-up"><hr></div>
+
+                    <div>
+                        <div class="lm m2">Amenties</div>
+                        <div class="d-flex justify-content-between wid22">
+                            <div>
+                                <div><img class="amenties" src="Screenshot 2023-04-25 at 14.55.43.png">Outdoor pool</div>
+                                <div><img class="amenties" src="Screenshot 2023-04-25 at 14.55.43.png">Indoor pool</div>
+                                <div><img class="amenties" src="Screenshot 2023-04-25 at 14.55.56.png">Spa and wallness center</div>
+                                <div><img class="amenties" src="Screenshot 2023-04-25 at 14.56.05.png">Restaurant</div>
+                                <div><img class="amenties" src="Screenshot 2023-04-25 at 14.56.15.png">Room service</div>
+                            </div>
+                            <div>
+                                <div><img class="amenties" src="Screenshot 2023-04-25 at 14.56.21.png">Fitness center</div>
+                                <div><img class="amenties" src="Screenshot 2023-04-25 at 14.56.26.png">Bar/Lounge</div>
+                                <div><img class="amenties" src="Screenshot 2023-04-25 at 14.56.32.png">Free Wi_Fi</div>
+                                <div><img class="amenties" src="Screenshot 2023-04-25 at 14.56.41.png">Tea/Coffee machine</div>
+                                <div class="pink">+24 more</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="m m2-up"><hr></div>
+
+                    <div>
+                        <div class="d-flex justify-content-between m">
+                            <div class="lm">Reviews</div>
+                            <div><input class="btn btn-success text-dark" id="numberBTN3-3" type="submit" value="Give your review"></div>
+                        </div>
+                        <div class="d-flex">
+                            <div class="r42-1">4.2</div>
+                            <div class="d-flex flex-column justify-content-around m-left">
+                                <div class="veryg">Very good</div>
+                                <div class="v371">371 verified reviews</div>
+                            </div>
+                        </div>
+                        <div class="m m2-up"><hr></div>
+                        <div>
+                            <div class="d-flex justify-content-between">
+                                <div class="d-flex wid21 justify-content-between">
+                                    <img src="Screenshot 2023-04-16 at 20.28.28.png" class="user-pic2">
+                                    <div class="wid20 d-flex flex-column justify-content-between">
+                                        <div class="text2"><span class="text1">5.0 Amazing</span> | Omar Siphron</div>
+                                        <div class="text2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+                                    </div>
+                                </div>
+                                <img class="flag" src="Screenshot 2023-04-25 at 06.24.08.png">
+                            </div>
+                            <div class="m2 m-up"><hr></div>
+                            <div class="d-flex justify-content-between">
+                                <div class="d-flex wid21 justify-content-between">
+                                    <img src="Screenshot 2023-04-25 at 06.24.37.png" class="user-pic2">
+                                    <div class="wid20 d-flex flex-column justify-content-between">
+                                        <div class="text2"><span class="text1">5.0 Amazing</span> | Cristofer Ekstrom Bothman</div>
+                                        <div class="text2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+                                    </div>
+                                </div>
+                                <img class="flag" src="Screenshot 2023-04-25 at 06.24.08.png">
+                            </div>
+                            <div class="m2 m-up"><hr></div>
+                            <div class="d-flex justify-content-between">
+                                <div class="d-flex wid21 justify-content-between">
+                                    <img src="Screenshot 2023-04-25 at 06.24.49.png" class="user-pic2">
+                                    <div class="wid20 d-flex flex-column justify-content-between">
+                                        <div class="text2"><span class="text1">5.0 Amazing</span> | Kaiya Lubin</div>
+                                        <div class="text2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+                                    </div>
+                                </div>
+                                <img class="flag" src="Screenshot 2023-04-25 at 06.24.08.png">
+                            </div>
+                            <div class="m2 m-up"><hr></div>
+                            <div class="d-flex justify-content-between">
+                                <div class="d-flex wid21 justify-content-between">
+                                    <img src="Screenshot 2023-04-25 at 06.24.59.png" class="user-pic2">
+                                    <div class="wid20 d-flex flex-column justify-content-between">
+                                        <div class="text2"><span class="text1">5.0 Amazing</span> | Erin Septimus</div>
+                                        <div class="text2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+                                    </div>
+                                </div>
+                                <img class="flag" src="Screenshot 2023-04-25 at 06.24.08.png">
+                            </div>
+                            <div class="m2 m-up"><hr></div>
+                            <div class="d-flex justify-content-between">
+                                <div class="d-flex wid21 justify-content-between">
+                                    <img src="Screenshot 2023-04-25 at 06.25.09.png" class="user-pic2">
+                                    <div class="wid20 d-flex flex-column justify-content-between">
+                                        <div class="text2"><span class="text1">5.0 Amazing</span>  |  Terry George</div>
+                                        <div class="text2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+                                    </div>
+                                </div>
+                                <img class="flag" src="Screenshot 2023-04-25 at 06.24.08.png">
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-center justify-content-center m m2-up">
+                            <img class="arrow1" src="left-arrow.png">
+                            <div>1 of 40</div>
+                            <img class="arrow1" src="right-arrow-2.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="d-flex flex-column align-items-center">
+                <div class="email-box d-flex flex-column justify-content-center">
+                    <div class="email-box-text1">Subscribe Newsletter</div>
+                    <div class="email-box-travel">The Travel</div>
+                    <div class="email-box-sm">Get inspired! Receive travel discounts, tips and behind the scenes stories.</div>
+                    <div class="d-flex">
+                        <div><input id="email-box-email" placeholder="Your email address" type="email"></div>
+                        <div class="btn btn-dark d-flex align-items-center" id="darkBtn_">Subscribe</div>
+                    </div>
+                </div>
+                <div class="footer d-flex align-items-end justify-content-center">
+                    <div class="d-flex align-items-start justify-content-around footer_div">
+                        <div class="d-flex align-items-center golobe_div"><img class="footer_golobe d-flex justify-content-start" src="footer.png"></div>
+
+                        <div>
+                            <div><span class="span1">Our Destinations</span></div>
+                            <div class="footer_sm_text">Canada</div>
+                            <div class="footer_sm_text">Alaksa</div>
+                            <div class="footer_sm_text">France</div>
+                            <div class="footer_sm_text">Iceland</div>
+                        </div>
+
+                        <div>
+                            <div><span class="span1">Our Activities</span></div>
+                            <div class="footer_sm_text">Northern Lights</div>
+                            <div class="footer_sm_text">Cruising & sailing</div>
+                            <div class="footer_sm_text">Multi-activities</div>
+                            <div class="footer_sm_text">Kayaing</div>
+                        </div>
+
+                        <div>
+                            <div><span class="span1">Travel Blogs</span></div>
+                            <div class="footer_sm_text">Bali Travel Guide</div>
+                            <div class="footer_sm_text">Sri Lanks Travel Guide</div>
+                            <div class="footer_sm_text">Peru Travel Guide</div>
+                            <div class="footer_sm_text">Bali Travel Guide</div>
+                        </div>
+
+                        <div>
+                            <div><span class="span1">About Us</span></div>
+                            <div class="footer_sm_text">Our Story</div>
+                            <div class="footer_sm_text">Work with us</div>
+                        </div>
+
+                        <div>
+                            <div><span class="span1">Contact Us</span></div>
+                            <div class="footer_sm_text">Our Story</div>
+                            <div class="footer_sm_text">Work with us</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script>
+            let subMenu = document.getElementById("subMenu");
+    
+            function toggleMenu(){
+                subMenu.classList.toggle("open-menu");
+            }
+
+            document.querySelector('#darkBtn_').onclick = function() {
+                location.href = 'hotel details.html';
+            };
+
+            document.querySelector('.header_golobe').onclick = function() {
+                location.href = 'index.html';
+            };
+
+            document.querySelector('#hotel').onclick = function() {
+                location.href = 'Hotel home page.html';
+            };
+
+            document.querySelector('#flight').onclick = function() {
+                location.href = 'flight home pg.html';
+            };
+
+            document.querySelector('#fav').onclick = function() {
+                location.href = 'favourites.html';
+            };
+
+            document.querySelector('#acc').onclick = function() {
+                location.href = 'account1.html';
+            };
+        </script>
+    </body>
+</html>

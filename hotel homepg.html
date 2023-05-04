@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Hotel home page</title>
+        <link rel="stylesheet" href="hotel home pg.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <div class="d-flex flex-column justify-content-between bodydiv">
+            <div>
+                <div class="d-flex justify-content-around flex-column">
+                    <div class="header d-flex justify-content-around align-items-center">
+                        <div class="d-flex header_div_size1 justify-content-between">
+                            <div class="d-flex justify-content-evenly align-items-center airplane_hotel mouse">
+                                <div><img class="d-flex align-items-center header_airplane" src="plane2.png"></div>
+                                <div class="header_find" id="flight">Find Flight</div>
+                            </div>
+                            <div class="d-flex align-items-center justify-content-evenly airplane_hotel mouse">
+                                <div><img class="d-flex align-items-center header_airplane" src="bed2.png"></div>
+                                <div class="header_find_stays" id="hotel">Find Stays</div>
+                            </div>
+                        </div>
+                        <div class="header_div_size2 d-flex justify-content-center mouse"><img class="header_golobe" src="Screenshot 2023-04-06 at 18.47.26.png"></div>
+                        <div class="header_div_size1 d-flex justify-content-evenly">
+                            <div class=" d-flex align-items-center mouse" id="fav">
+                                <div><img class="header_heart" src="Screenshot 2023-04-16 at 22.56.07.png"></div>
+                                <div>Favourites</div>
+                            </div>
+                            <div>
+                                <nav>
+                                    <div onclick="toggleMenu()" class="mouse">
+                                        <img src="Screenshot 2023-04-16 at 20.28.28.png" class="user-pic">
+                                        John D.
+                                    </div>
+                        
+                                    <div class="sub-menu-wrap" id="subMenu">
+                                        <div class="sub-menu">
+                                            <div class="user-info">
+                                                <img src="Screenshot 2023-04-16 at 20.28.28.png">
+                                                <div>
+                                                    <div>John Doe.</div>
+                                                    <div>online</div>
+                                                </div>
+                                            </div>
+                                            <br>
+                                            <br>
+                        
+                                            <a href="#" class="sub-menu-link" id="acc">
+                                                <img src="Screenshot 2023-04-16 at 19.41.43.png">
+                                                <div>My account</div>
+                                                <span><img src="Screenshot 2023-04-20 at 18.11.14.png" alt=""></span>
+                                            </a>
+                        
+                                            <a href="#" class="sub-menu-link">
+                                                <img src="Screenshot 2023-04-16 at 19.42.02.png">
+                                                <div>Payments</div>
+                                                <span><img src="Screenshot 2023-04-20 at 18.11.14.png" alt=""></span>
+                                            </a>
+                        
+                                            <a href="#" class="sub-menu-link">
+                                                <img src="Screenshot 2023-04-16 at 19.42.11.png">
+                                                <div>settings</div>
+                                                <span><img src="Screenshot 2023-04-20 at 18.11.14.png" alt=""></span>
+                                            </a>
+                        
+                                            <hr>
+                        
+                                            <a href="#" class="sub-menu-link">
+                                                <img src="Screenshot 2023-04-16 at 19.42.18.png">
+                                                <div>Support</div>
+                                                <span><img src="Screenshot 2023-04-20 at 18.11.14.png" alt=""></span>
+                                            </a>
+                        
+                                            <a href="#" class="sub-menu-link">
+                                                <img src="Screenshot 2023-04-16 at 19.42.24.png">
+                                                <div>Logout</div>
+                                            </a>
+                        
+                                        </div>
+                                    </div>                    
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-around align-items-center">
+                        <div class="header_div_size d-flex justify-content-end">
+                            <div class="down_line"></div>
+                        </div>
+                        <div class="header_div_size2"></div>
+                        <div class="header_div_size"></div>
+                    </div>
+                </div>
+
+                <div class="airplane_background">
+                    <div class="blue d-flex justify-content-end align-items-center">
+                        <div class="home_size">
+                            <div class="hotel_text_bg">Make your travel whishlist, we'll do the rest</div>
+                            <div class="hotel_text_sm">Special offers to suit your plan</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="d-flex justify-content-center">
+                    <div class="card bg-light" id="onCard">
+                        <div class="where">Where are you flying?</div>
+                        <div class="d-flex justify-content-around input-icons">
+                            <div class="input1"><input class="inputs" id="bedinput" name="bedinput" placeholder="Istanbul, Turkey" type="text"></div>
+                            <div class="input2"><input class="inputs2" id="calendar" name="calendar" placeholder="Fri 12/2" type="text"></div>
+                            <div class="input3"><input class="inputs2" id="calendar" name="calendar" placeholder="sun 12/4" type="text"></div>
+                            <div class="input4 d-flex"><input class="inputs" id="person" name="person" placeholder="1 room, 2 guests" type="text"><img class="arrow" src="down-arrow.png"></div>
+                        </div>
+                        <div class="d-flex justify-content-end">
+                            <div class="btn btn_ d-flex align-items-center">
+                                <div class="btn_text1">+ Add Promo Code</div>
+                            </div>
+                            <div class="btn d-flex align-items-center" id="btn_flights1">
+                                <div><img class="sent_icon" src="sent-mail.png"></div>
+                                <div class="btn_text2">Show Flights</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="d-flex justify-content-center height">
+                <div class="d-flex flex-column justify-content-between baratebis_shekvra">
+                    <div class="plan-your-trip">Your recent searches</div>
+                    <div>
+                        <div class="d-flex justify-content-between flex-row column_cards flex-wrap">
+                            <div class="d-flex four justify-content-between">
+                                    <div><img class="photo" src="istanbul.JPG"></div>
+                                    <div class="d-flex flex-column justify-content-center">
+                                        <div class="contry_size">
+                                            <div class="country_names">Istanbul, Turkey</div>
+                                            <div class="d-flex down_text_C align-items-center">325 places</div>
+                                        </div>
+                                    </div>
+                            </div>
+
+                            <div class="d-flex four justify-content-between">
+                                    <div><img class="photo" src="sydney.jpeg"></div>
+                                    <div class="d-flex flex-column justify-content-center">
+                                        <div class="contry_size">
+                                            <div class="country_names">Sedney, Australia</div>
+                                            <div class="d-flex down_text_C align-items-center">325 places</div>
+                                        </div>
+                                    </div>
+                            </div>
+
+                            <div class="d-flex four justify-content-between">
+                                    <div><img class="photo" src="baku copy.png"></div>
+                                    <div class="d-flex flex-column justify-content-center">
+                                        <div class="contry_size">
+                                            <div class="country_names">Baku, Azerbaijan</div>
+                                            <div class="d-flex down_text_C align-items-center">325 places</div>
+                                        </div>
+                                    </div>
+                            </div>
+
+                            <div class="d-flex four justify-content-between">
+                                <div><img class="photo" src="male.jpeg"></div>
+                                <div class="d-flex flex-column justify-content-center">
+                                    <div class="contry_size">
+                                        <div class="country_names">Malé, Maldives</div>
+                                        <div class="d-flex down_text_C align-items-center">325 places</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="d-flex justify-content-between flex-column">
+                    <div class="d-flex flex-column justify-content-around align-items-center every3">
+                        <div class="d-flex justify-content-between align-items-center size_beetwen2">
+                            <div>
+                                <div class="plan-your-trip">Fall into travel</div>
+                                <div class="search-flight">Going somewhere to celebrate this season? Whether you're going home or somewhere to roam, we've got the travel tools to get you to your destination.</div>
+                            </div>
+                            <div class="btn btn-outline-success" id="black">See All</div>
+                        </div>
+                    </div>
+
+                    <div class="d-flex justify-content-center ">
+                        <div class="d-flex justify-content-around baratebis_shekvra flex-wrap">
+                            <div class="d-flex flex-column justify-content-end align-items-center" id="baratebi1" style="background-size: 100% 100%;">
+                                <div class="button_book d-flex flex-column justify-content-evenly align-items-center">
+                                    <div class="d-flex align-items-center">
+                                        <div>
+                                            <div class="into_travel">Melbourne</div>
+                                            <div class="small_into_travel">An amazing journy</div>
+                                        </div>
+                                        <div class="cost">$ 700</div>
+                                    </div>
+                                    <div><input class="btn btn_text2"  id="btn_flights" type="submit" value="Book Flight"></div>
+                                </div>
+                            </div>
+
+                            <div class="d-flex flex-column justify-content-end align-items-center" id="baratebi2" style="background-size: 100% 100%;">
+                                <div class="button_book d-flex flex-column justify-content-evenly align-items-center">
+                                    <div class="d-flex align-items-center">
+                                        <div>
+                                            <div class="into_travel">Paris</div>
+                                            <div class="small_into_travel">A Paris Advanture</div>
+                                        </div>
+                                        <div class="cost">$ 600</div>
+                                    </div>
+                                    <div><input class="btn btn_text2"  id="btn_flights" type="submit" value="Book Flight"></div>
+                                </div>
+                            </div>
+
+                            <div class="d-flex flex-column justify-content-end align-items-center" id="baratebi3" style="background-size: 100% 100%;">
+                                <div class="button_book d-flex flex-column justify-content-evenly align-items-center">
+                                    <div class="d-flex align-items-center">
+                                        <div>
+                                            <div class="into_travel">London</div>
+                                            <div class="small_into_travel">London eye advanture</div>
+                                        </div>
+                                        <div class="cost">$ 350</div>
+                                    </div>
+                                    <div><input class="btn btn_text2"  id="btn_flights" type="submit" value="Book Flight"></div>
+                                </div>
+                            </div>
+
+                            <div class="d-flex flex-column justify-content-end align-items-center" id="baratebi4" style="background-size: 100% 100%;">
+                                <div class="button_book d-flex flex-column justify-content-evenly align-items-center">
+                                    <div class="d-flex align-items-center">
+                                        <div>
+                                            <div class="into_travel">Columbia</div>
+                                            <div class="small_into_travel">Amazing streets</div>
+                                        </div>
+                                        <div class="cost">$ 700</div>
+                                    </div>
+                                    <div><input class="btn btn_text2"  id="btn_flights" type="submit" value="Book Flight"></div>
+                                </div>
+                            </div>
+                        </div>                        
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="d-flex flex-column justify-content-between size">
+                    <div class="every3 pt3">
+                        <div class="d-flex flex-column justify-content-around align-items-center">
+                            <div class="d-flex justify-content-between align-items-center size_beetwen">
+                                <div>
+                                    <div class="plan-your-trip">Fall into travel</div>
+                                    <div class="search-flight">Going somewhere to celebrate this season? Whether you're going home or somewhere to roam, we've got the travel tools to get you to your destination.</div>
+                                </div>
+                                <div class="btn btn-outline-success" id="black">See All</div>
+                            </div>
+                        </div>    
+                    </div>
+
+                    <div class="d-flex align-items-center justify-content-center">
+                        <div class="d-flex baratebis_shekvra align-items-center justify-content-between">
+                            <div class="bigbox d-flex flex-wrap justify-content-between">
+                                <div class="greencard text-box d-flex flex-column justify-content-between">
+                                    <div>
+                                        <div class="d-flex justify-content-between flex-wrap">
+                                            <h1 class="bigtext">Backpaking Sri Lanka</h1>
+                                            <div class="moneybox d-flex flex-column align-items-center justify-content-center">
+                                                <div class="from">From</div>
+                                                <div class="m700">$700</div>
+                                            </div>
+                                        </div>
+                                        <p class="sm-text-greencard">Traveling is a unique experience as it's the best way to unplug from the pushes and pulls of daily life. It helps us to forget about our problems, frustrations, and fears at home. During our journey, we experience life in different ways. We explore new places, cultures, cuisines, traditions, and ways of living.</p>
+                                    </div>
+                                    <input class="btn btn-light btn_book_f" type="submit" value="Book Flight">
+                                </div>
+                                <div class="box2 image-box d-flex flex-wrap justify-content-between align-items-center">
+                                    <img src="Screenshot 2023-04-11 at 23.13.50.png" alt="Image 1">
+                                    <img src="Screenshot 2023-04-11 at 23.14.25.png" alt="Image 2">
+                                    <img src="Screenshot 2023-04-11 at 23.14.40.png" alt="Image 3">
+                                    <img src="Screenshot 2023-04-11 at 23.15.07.png" alt="Image 4">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="d-flex flex-column align-items-center">
+                <div class="email-box d-flex flex-column justify-content-center">
+                    <div class="email-box-text1">Subscribe Newsletter</div>
+                    <div class="email-box-travel">The Travel</div>
+                    <div class="email-box-sm">Get inspired! Receive travel discounts, tips and behind the scenes stories.</div>
+                    <div class="d-flex">
+                        <div><input id="email-box-email" placeholder="Your email address" type="email"></div>
+                        <div class="btn btn-dark d-flex align-items-center" id="darkBtn_">Subscribe</div>
+                    </div>
+                </div>
+                <div class="footer d-flex align-items-end justify-content-center">
+                    <div class="d-flex align-items-start justify-content-around footer_div">
+                        <div class="d-flex align-items-center golobe_div"><img class="footer_golobe d-flex justify-content-start" src="footer.png"></div>
+
+                        <div>
+                            <div><span class="span1">Our Destinations</span></div>
+                            <div class="footer_sm_text">Canada</div>
+                            <div class="footer_sm_text">Alaksa</div>
+                            <div class="footer_sm_text">France</div>
+                            <div class="footer_sm_text">Iceland</div>
+                        </div>
+
+                        <div>
+                            <div><span class="span1">Our Activities</span></div>
+                            <div class="footer_sm_text">Northern Lights</div>
+                            <div class="footer_sm_text">Cruising & sailing</div>
+                            <div class="footer_sm_text">Multi-activities</div>
+                            <div class="footer_sm_text">Kayaing</div>
+                        </div>
+
+                        <div>
+                            <div><span class="span1">Travel Blogs</span></div>
+                            <div class="footer_sm_text">Bali Travel Guide</div>
+                            <div class="footer_sm_text">Sri Lanks Travel Guide</div>
+                            <div class="footer_sm_text">Peru Travel Guide</div>
+                            <div class="footer_sm_text">Bali Travel Guide</div>
+                        </div>
+
+                        <div>
+                            <div><span class="span1">About Us</span></div>
+                            <div class="footer_sm_text">Our Story</div>
+                            <div class="footer_sm_text">Work with us</div>
+                        </div>
+
+                        <div>
+                            <div><span class="span1">Contact Us</span></div>
+                            <div class="footer_sm_text">Our Story</div>
+                            <div class="footer_sm_text">Work with us</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>  
+
+        <script>
+            let subMenu = document.getElementById("subMenu");
+    
+            function toggleMenu(){
+                subMenu.classList.toggle("open-menu");
+            }
+
+            document.querySelector('#darkBtn_').onclick = function() {
+                location.href = 'hotel homepg.html';
+            };
+
+            document.querySelector('.header_golobe').onclick = function() {
+                location.href = 'home page.html';
+            };
+
+            document.querySelector('#hotel').onclick = function() {
+                location.href = 'hotel homepg.html';
+            };
+
+            document.querySelector('#flight').onclick = function() {
+                location.href = 'flight home pg.html';
+            };
+
+            document.querySelector('#fav').onclick = function() {
+                location.href = 'favourites.html';
+            };
+
+            document.querySelector('#acc').onclick = function() {
+                location.href = 'account1.html';
+            };
+
+            document.querySelector('#btn_flights1').onclick = function() {
+                location.href = 'hotel 2.html';
+            };
+        </script>
+    </body>
+</html>

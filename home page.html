@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+
+        <title>Final Project</title>
+        <link rel="stylesheet" href="home page.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" />
+        <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" />
+
+    </head>
+
+    <body>
+        <div>
+
+            <div class="d-flex flex-column" id="home_page_header">
+                <div class="header d-flex justify-content-around align-items-center">
+                    <div class="d-flex header_div_size1 justify-content-center">
+                        <div class="d-flex align-items-center mouse">
+                            <div><img class="d-flex align-items-center header_airplane" src="plane1.png"></div>
+                            <div class="header_find" id="flight">Find Flight</div>
+                        </div>
+                        <div class="d-flex align-items-center mouse">
+                            <div><img class="d-flex align-items-center header_bed" src="bed1.png"></div>
+                            <div class="header_find" id="hotel">Find Stays</div>
+                        </div>
+                    </div>
+                    <div class="header_div_size2 d-flex justify-content-center mouse"><img class="header_golobe" src="golobe.PNG"></div>
+                    <div class="header_div_size3 d-flex justify-content-center">
+                        <div class="btn" id="header_btn"> Login</div>
+                        <div class="btn btn-light" id="signup">Sign up</div>
+                    </div>
+                </div>
+                <div class="d-flex flex-column align-items-center justify-content-center home_page_down_headline">
+                    <div class="home_page_text1">Helping Others</div>
+                    <div class="home_page_text2">LIVE & TRAVEL</div>
+                    <div class="home_page_text3">Special offers to suit your plan</div>
+                </div>
+            </div>
+
+            <div class="d-flex justify-content-center">
+                <div class="card bg-light" id="onCard">
+                    <div class="d-flex justify-content-between down_headline">
+                        <div class="d-flex align-items-center flex-column div_2 justify-content-between">
+                            <div class="d-flex align-items-center flights_ justify-content-between">
+                                <div><img class="header_airplane" src="plane2.png"></div>
+                                <div class="flights_text1">Flights</div>
+                            </div>
+                            <div class="line1"></div>
+                        </div>
+                        <div class="line2"></div>
+                        <div class="d-flex align-items-center flights_1 justify-content-between">
+                            <div><img class="header_airplane" src="bed2.png"></div>
+                            <div class="stays">Stays</div>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-around">
+                        <div class="input1 d-flex"><input class="inputs" placeholder="Lahore - karachi" type="text"><img class="arrows d-flex justify-content-between" src="exchange.png"></div>
+                        <div class="input2 d-flex"><input class="inputs" placeholder="Return" type="text"><img class="arrow d-flex justify-content-between" src="down-arrow.png"></div>
+                        <div class="input3"><input class="inputs" placeholder="07 Nov 22 - 12 Nov 22" type="text"></div>
+                        <div class="input4"><input class="inputs" placeholder="1 Passenger, Economy" type="text"></div>
+                    </div>
+                    <div class="d-flex justify-content-end">
+                        <div class="btn btn_ d-flex align-items-center">
+                            <div class="btn_text1">+ Add Promo Code</div>
+                        </div>
+                        <div class="btn d-flex align-items-center" id="btn_flights">
+                            <div><img class="sent_icon" src="sent-mail.png"></div>
+                            <div class="btn_text2">Show Flights</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="d-flex flex-column justify-content-around align-items-center">
+
+                <div class="d-flex justify-content-between align-items-center size_beetwen">
+                    <div>
+                        <div class="plan-your-trip">Plan your perfect trip</div>
+                        <div class="search-flight">Search Flights & Places Hire to our most popular destinations</div>
+                    </div>
+                    <div class="btn btn-outline-success" id="black">See more places</div>
+                </div>
+
+                <div class="d-flex flex-column justify-content-between align-items-center between">
+                    <div class="row d-flex justify-content-evenly column_cards">
+                        <div class="col-3 d-flex" id="cards_county">
+                                <div><img class="photo" src="istanbul.JPG"></div>
+                                <div class="d-flex flex-column justify-content-center">
+                                    <div class="contry_size">
+                                        <div class="country_names">Istanbul, Turkey</div>
+                                        <div class="d-flex down_text_C align-items-center">
+                                            <div>Flights</div>
+                                            <div class="sm_circle"></div>
+                                            <div>Hotels</div>
+                                            <div class="sm_circle"></div>
+                                            <div>Resorts</div>
+                                        </div>
+                                    </div>
+                                </div>
+                        </div>
+                        <div class="col-3 d-flex" id="cards_county">
+                                <div><img class="photo" src="sydney.jpeg"></div>
+                                <div class="d-flex flex-column justify-content-center">
+                                    <div class="contry_size">
+                                        <div class="country_names">Sedney, Australia</div>
+                                        <div class="d-flex down_text_C align-items-center">
+                                            <div>Flights</div>
+                                            <div class="sm_circle"></div>
+                                            <div>Hotels</div>
+                                            <div class="sm_circle"></div>
+                                            <div>Resorts</div>
+                                        </div>
+                                    </div>
+                                </div>
+                        </div>
+                        <div class="col-3 d-flex" id="cards_county">
+                                <div><img class="photo" src="baku copy.png"></div>
+                                <div class="d-flex flex-column justify-content-center">
+                                    <div class="contry_size">
+                                        <div class="country_names">Baku, Azerbaijan</div>
+                                        <div class="d-flex down_text_C align-items-center">
+                                            <div>Flights</div>
+                                            <div class="sm_circle"></div>
+                                            <div>Hotels</div>
+                                            <div class="sm_circle"></div>
+                                            <div>Resorts</div>
+                                        </div>
+                                    </div>
+                                </div>
+                        </div>
+                        <div class="col-3 d-flex" id="cards_county">
+                                <div><img class="photo" src="male.jpeg"></div>
+                                <div class="d-flex flex-column justify-content-center">
+                                    <div class="contry_size">
+                                        <div class="country_names">Malé, Maldives</div>
+                                        <div class="d-flex down_text_C align-items-center">
+                                            <div>Flights</div>
+                                            <div class="sm_circle"></div>
+                                            <div>Hotels</div>
+                                            <div class="sm_circle"></div>
+                                            <div>Resorts</div>
+                                        </div>
+                                    </div>
+                                </div>
+                        </div>
+                        <div class="col-3 d-flex" id="cards_county">
+                                <div><img class="photo" src="eiffel-tower.jpg"></div>
+                                <div class="d-flex flex-column justify-content-center">
+                                    <div class="contry_size">
+                                        <div class="country_names">Paris, France</div>
+                                        <div class="d-flex down_text_C align-items-center">
+                                            <div>Flights</div>
+                                            <div class="sm_circle"></div>
+                                            <div>Hotels</div>
+                                            <div class="sm_circle"></div>
+                                            <div>Resorts</div>
+                                        </div>
+                                    </div>
+                                </div>
+                        </div>
+                        <div class="col-3 d-flex" id="cards_county">
+                                <div><img class="photo" src="new york.JPG"></div>
+                                <div class="d-flex flex-column justify-content-center">
+                                    <div class="contry_size">
+                                        <div class="country_names">New York, US</div>
+                                        <div class="d-flex down_text_C align-items-center">
+                                            <div>Flights</div>
+                                            <div class="sm_circle"></div>
+                                            <div>Hotels</div>
+                                            <div class="sm_circle"></div>
+                                            <div>Resorts</div>
+                                        </div>
+                                    </div>
+                                </div>
+                        </div>
+                        <div class="col-3 d-flex" id="cards_county">
+                                <div><img class="photo" src="london.JPG"></div>
+                                <div class="d-flex flex-column justify-content-center">
+                                    <div class="contry_size">
+                                        <div class="country_names">London, UK</div>
+                                        <div class="d-flex down_text_C align-items-center">
+                                            <div>Flights</div>
+                                            <div class="sm_circle"></div>
+                                            <div>Hotels</div>
+                                            <div class="sm_circle"></div>
+                                            <div>Resorts</div>
+                                        </div>
+                                    </div>
+                                </div>
+                        </div>
+                        <div class="col-3 d-flex" id="cards_county">
+                                <div><img class="photo" src="tokyo.jpeg"></div>
+                                <div class="d-flex flex-column justify-content-center">
+                                    <div class="contry_size">
+                                        <div class="country_names">Tokyo, Japan</div>
+                                        <div class="d-flex down_text_C align-items-center">
+                                            <div>Flights</div>
+                                            <div class="sm_circle"></div>
+                                            <div>Hotels</div>
+                                            <div class="sm_circle"></div>
+                                            <div>Resorts</div>
+                                        </div>
+                                    </div>
+                                </div>
+                        </div>
+                        <div class="col-3 d-flex" id="cards_county">
+                                <div><img class="photo" src="dubai.jpeg"></div>
+                                <div class="d-flex flex-column justify-content-center">
+                                    <div class="contry_size">
+                                        <div class="country_names">Dubai, UAE</div>
+                                        <div class="d-flex down_text_C align-items-center">
+                                            <div>Flights</div>
+                                            <div class="sm_circle"></div>
+                                            <div>Hotels</div>
+                                            <div class="sm_circle"></div>
+                                            <div>Resorts</div>
+                                        </div>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="d-flex justify-content-center fl">
+                <div class="d-flex cards_f_h justify-content-between align-items-center flex-wrap">
+                    <div class="airport d-flex flex-column align-items-center justify-content-end">
+                        <div class="airport_hotel_text">Flights</div>
+                        <div class="airport_hotel_text_sm">Search Flights & Places Hire to our most popular destinations</div>
+                        <div class="btn d-flex align-items-center margin_down" id="btn_flights">
+                            <div><img class="sent_icon" src="sent-mail.png"></div>
+                            <div class="btn_text2" id="gotoflights">Show Flights</div>
+                        </div>
+                    </div>
+                    <div class="hotel d-flex flex-column align-items-center justify-content-end">
+                        <div class="airport_hotel_text">Hotels</div>
+                        <div class="airport_hotel_text_sm">Search Flights & Places Hire to our most popular destinations</div>
+                        <div class="btn d-flex align-items-center margin_down" id="btn_flights">
+                            <div><img class="sent_icon" src="sent-mail.png"></div>
+                            <div class="btn_text2" id="gotohotel">Show Hotels</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="slider_pg d-flex flex-column align-items-center">
+
+                <div class="d-flex head justify-content-between align-items-center">
+                    <div>
+                        <div class="plan-your-trip">Reviews</div>
+                        <div class="search-flight">What poeple says about Golobe facilities</div>
+                    </div>
+                    <div class="btn btn-outline-success" id="black">See All</div>
+                </div>
+
+                <div class="d-flex owl-carousel owl-theme slider align-items-center" id="owl-carousel">
+
+                    <div class="item  mb-4" id="reviews_card">
+                            <div class="headline_card">"A real sense of community nurtured"</div>
+                            <div class="smalll">Really appreciate the help and support from the staff during these tough times. Shoutout to Katie for…</div>
+                            <div class="more">View more</div>
+                            <div class="d-flex">
+                                <div><img class="star" src="star.png"></div>
+                                <div><img class="star" src="star.png"></div>
+                                <div><img class="star" src="star.png"></div>
+                                <div><img class="star" src="star.png"></div>
+                                <div><img class="star" src="star.png"></div>
+                            </div>
+                            <div>
+                                <div class="name">Olga</div>
+                                <div class="studio">Weave Studios - Kai Tak</div>
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <div><img class="g" src="search.png" alt=""></div>
+                                <div class="google">Google</div>
+                            </div>
+                            <div><img class="card_img" src="card1.png"></div>
+                    </div>
+
+                    <div class="item" id="reviews_card">
+                            <div class="headline_card">"The facilities are superb. Clean, slick, bright."</div>
+                            <div class="smalll">"A real sense of community, nurtured"Really appreciate the help and support from the staff...</div>
+                            <div class="more">View more</div>
+                            <div class="d-flex">
+                                <div><img class="star" src="star.png"></div>
+                                <div><img class="star" src="star.png"></div>
+                                <div><img class="star" src="star.png"></div>
+                                <div><img class="star" src="star.png"></div>
+                                <div><img class="star" src="star.png"></div>
+                            </div>
+                            <div>
+                                <div class="name">Thomas</div>
+                                <div class="studio">Weave Studios - Olympic</div>
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <div><img class="g" src="search.png" alt=""></div>
+                                <div class="google">Google</div>
+                            </div>
+                            <div><img class="card_img" src="card 2.png"></div>
+                    </div>
+
+                    <div class="item" id="reviews_card">
+                            <div class="headline_card">"A real sense of community nurtured"</div>
+                            <div class="smalll">Really appreciate the help and support from the staff during these tough times. Shoutout to Katie for…</div>
+                            <div class="more">View more</div>
+                            <div class="d-flex">
+                                <div><img class="star" src="star.png"></div>
+                                <div><img class="star" src="star.png"></div>
+                                <div><img class="star" src="star.png"></div>
+                                <div><img class="star" src="star.png"></div>
+                                <div><img class="star" src="star.png"></div>
+                            </div>
+                            <div>
+                                <div class="name">Eliot</div>
+                                <div class="studio">Weave Studios - Kai Tak</div>
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <div><img class="g" src="search.png" alt=""></div>
+                                <div class="google">Google</div>
+                            </div>
+                            <div><img class="card_img" src="Falljökull-1.jpg.webp"></div>
+                    </div>
+
+                    <div class="item" id="reviews_card">
+                        <div class="headline_card">"A real sense of community nurtured"</div>
+                        <div class="smalll">Really appreciate the help and support from the staff during these tough times. Shoutout to Katie for…</div>
+                        <div class="more">View more</div>
+                        <div class="d-flex">
+                            <div><img class="star" src="star.png"></div>
+                            <div><img class="star" src="star.png"></div>
+                            <div><img class="star" src="star.png"></div>
+                            <div><img class="star" src="star.png"></div>
+                            <div><img class="star" src="star.png"></div>
+                        </div>
+                        <div>
+                            <div class="name">Olga</div>
+                            <div class="studio">Weave Studios - Kai Tak</div>
+                        </div>
+                        <div class="d-flex align-items-center">
+                            <div><img class="g" src="search.png" alt=""></div>
+                            <div class="google">Google</div>
+                        </div>
+                        <div><img class="card_img" src="card1.png"></div>
+                    </div>
+
+                    <div class="item" id="reviews_card">
+                        <div class="headline_card">"The facilities are superb. Clean, slick, bright."</div>
+                        <div class="smalll">"A real sense of community, nurtured"Really appreciate the help and support from the staff...</div>
+                        <div class="more">View more</div>
+                        <div class="d-flex">
+                            <div><img class="star" src="star.png"></div>
+                            <div><img class="star" src="star.png"></div>
+                            <div><img class="star" src="star.png"></div>
+                            <div><img class="star" src="star.png"></div>
+                            <div><img class="star" src="star.png"></div>
+                        </div>
+                        <div>
+                            <div class="name">Thomas</div>
+                            <div class="studio">Weave Studios - Olympic</div>
+                        </div>
+                        <div class="d-flex align-items-center">
+                            <div><img class="g" src="search.png" alt=""></div>
+                            <div class="google">Google</div>
+                        </div>
+                        <div><img class="card_img" src="card 2.png"></div>
+                    </div>
+
+                    <div class="item" id="reviews_card">
+                        <div class="headline_card">"A real sense of community nurtured"</div>
+                        <div class="smalll">Really appreciate the help and support from the staff during these tough times. Shoutout to Katie for…</div>
+                        <div class="more">View more</div>
+                        <div class="d-flex">
+                            <div><img class="star" src="star.png"></div>
+                            <div><img class="star" src="star.png"></div>
+                            <div><img class="star" src="star.png"></div>
+                            <div><img class="star" src="star.png"></div>
+                            <div><img class="star" src="star.png"></div>
+                        </div>
+                        <div>
+                            <div class="name">Eliot</div>
+                            <div class="studio">Weave Studios - Kai Tak</div>
+                        </div>
+                        <div class="d-flex align-items-center">
+                            <div><img class="g" src="search.png" alt=""></div>
+                            <div class="google">Google</div>
+                        </div>
+                        <div><img class="card_img" src="Falljökull-1.jpg.webp"></div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="d-flex flex-column align-items-center">
+                <div class="email-box d-flex flex-column justify-content-center">
+                    <div class="email-box-text1">Subscribe Newsletter</div>
+                    <div class="email-box-travel">The Travel</div>
+                    <div class="email-box-sm">Get inspired! Receive travel discounts, tips and behind the scenes stories.</div>
+                    <div class="d-flex">
+                        <div><input id="email-box-email" placeholder="Your email address" type="email"></div>
+                        <div class="btn btn-dark d-flex align-items-center" id="darkBtn_">Subscribe</div>
+                    </div>
+                </div>
+                <div class="footer d-flex align-items-end justify-content-center">
+                    <div class="d-flex align-items-start justify-content-around footer_div">
+                        <div class="d-flex align-items-center golobe_div"><img class="footer_golobe d-flex justify-content-start" src="footer.png"></div>
+
+                        <div>
+                            <div><span>Our Destinations</span></div>
+                            <div class="footer_sm_text">Canada</div>
+                            <div class="footer_sm_text">Alaksa</div>
+                            <div class="footer_sm_text">France</div>
+                            <div class="footer_sm_text">Iceland</div>
+                        </div>
+
+                        <div>
+                            <div><span>Our Activities</span></div>
+                            <div class="footer_sm_text">Northern Lights</div>
+                            <div class="footer_sm_text">Cruising & sailing</div>
+                            <div class="footer_sm_text">Multi-activities</div>
+                            <div class="footer_sm_text">Kayaing</div>
+                        </div>
+
+                        <div>
+                            <div><span>Travel Blogs</span></div>
+                            <div class="footer_sm_text">Bali Travel Guide</div>
+                            <div class="footer_sm_text">Sri Lanks Travel Guide</div>
+                            <div class="footer_sm_text">Peru Travel Guide</div>
+                            <div class="footer_sm_text">Bali Travel Guide</div>
+                        </div>
+
+                        <div>
+                            <div><span>About Us</span></div>
+                            <div class="footer_sm_text">Our Story</div>
+                            <div class="footer_sm_text">Work with us</div>
+                        </div>
+
+                        <div>
+                            <div><span>Contact Us</span></div>
+                            <div class="footer_sm_text">Our Story</div>
+                            <div class="footer_sm_text">Work with us</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous"></script>
+
+        <script>
+            $('.owl-carousel').owlCarousel({
+                loop: true,
+                margin: 15,
+                nav: true,
+                responsive: {
+                    0: {
+                        items: 1
+                    },
+                    600: {
+                        items: 2
+                    },
+                    1000: {
+                        items: 3
+                    }
+                }
+            })
+
+            document.querySelector('#header_btn').onclick = function() {
+                location.href = 'log in 1.html';
+            };
+
+            document.querySelector('#darkBtn_').onclick = function() {
+                location.href = 'home page.html';
+            };
+
+            document.querySelector('#signup').onclick = function() {
+                location.href = 'sign up.html';
+            };
+
+            document.querySelector('.header_golobe').onclick = function() {
+                location.href = 'home page.html';
+            };
+
+            document.querySelector('#hotel').onclick = function() {
+                location.href = 'index.html';
+            };
+
+            document.querySelector('#flight').onclick = function() {
+                location.href = 'flight home pg.html';
+            };
+
+            document.querySelector('#btn_flights').onclick = function() {
+                location.href = 'flight home pg.html';
+            };
+
+            document.querySelector('#gotoflights').onclick = function() {
+                location.href = 'flight home pg.html';
+            };
+
+            document.querySelector('#gotohotel').onclick = function() {
+                location.href = 'index.html';
+            };
+
+        </script>
+    </body>
+</html>

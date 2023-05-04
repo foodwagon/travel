@@ -1,0 +1,198 @@
+html , body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.bodydiv{
+    height: 100%;
+    width: 100%;
+}
+
+
+.login_login{
+    width: 123px;
+    height: 51px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 51px;
+    color: #000000;
+    margin-bottom: 16px;
+}
+
+.wid1{
+    width: 47%;
+    height: fit-content;
+}
+
+.login_small{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #112211;
+    opacity: 0.75;
+    margin-bottom: 48px;
+}
+
+.email_login , .psw_login{
+    gap: 10px;
+    width: 100%;
+    height: 56px;
+    background: #FFFFFF;
+    border: 1px solid #79747E;
+    border-radius: 4px;
+    margin-bottom: 24px;
+    padding-left: 10px;
+}
+
+.checkbox_login{
+    width: 108px;
+    height: 17px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #112211;
+    margin-top: 3.5px;
+}
+
+.fogot_psw_login{
+    width: 120px;
+    height: 17px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: right;
+    color: #FF8682;
+    cursor: pointer;
+}
+
+.away-login{
+    margin-bottom: 40px;
+}
+
+.login_btn{
+    padding: 8px 16px;
+    gap: 4px;
+    width: 100%;
+    height: 55px;
+    background: #8DD3BB;
+    border-radius: 4px;
+    border: none;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #112211;
+    margin-bottom: 16px;
+}
+
+.no_account{
+    width: 100%;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #112211;
+    margin-bottom: 40px;
+}
+
+.red_signup_login{
+    color: #FF8682;
+}
+
+.or_login_with{
+    width: 20%;
+    height: 17px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 17px;
+    color: #112211;
+    opacity: 0.5;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+.m40{
+    margin-bottom: 40px;
+}
+
+.line_login_1{
+    width: 40%;
+    height: 0.5px;
+    background: #112211;
+    opacity: 0.25;
+}
+
+.login{
+    width: 85%;
+    height: 100%;
+}
+
+.login_img{
+    width: 47%;
+    height: 740px;
+    background:#D9D9D9;
+    border-radius: 30px;
+}
+
+.logo_login{
+    width: 90px;
+    height: 35px;
+    margin-bottom: 40px;
+}
+
+.icon_btn{
+    padding: 16px 24px;
+    width: 30%;
+    height: 70px;
+    border: 1px solid #8DD3BB;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+.mouse{
+    cursor: pointer;
+}
+
+input[type="checkbox"] {
+    background-color: #fafbfc;
+    border: 1.5px solid rgb(29, 29, 29);
+    margin-top: 0;
+    margin-right: 4px;
+}
+
+input[type="checkbox"]:checked{
+    background-color: #8DD3BB;
+    border: 1.5px solid #8DD3BB;
+    margin-top: 0;
+    margin-right: 4px;
+}
+
+.icon{
+    width: 24px;
+    height: 24px;
+}
+
+.margin_login-btn_google{
+    margin: 0 20px;
+}
+
+.hidden_login{
+    height: 24px;
+    width: 24px;
+    margin-top: 16px;
+    margin-left: -35px;
+}
+
+.lil_icones{
+    height: 17px;
+    z-index: 10;
+    margin-top: -189px;
+    margin-left: 15px;
+}

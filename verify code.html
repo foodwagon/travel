@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <title>login forgot password</title>
+        <link rel="stylesheet" href="verify code.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <div class="d-flex align-items-center justify-content-center wid10">
+            <div class="d-flex login justify-content-between align-items-center flex-wrap">
+                <div class="wid">
+                    <div><img class="logo_login" src="Screenshot 2023-04-06 at 18.47.26.png"></div>
+                    <div>
+                        <div>
+                            <div class="d-flex mouse" id="backf">
+                                <div><img class="log_in_foget_img" src="left-arrow.png"></div>
+                                <div>Back to login</div>
+                            </div>
+                            <div class="login_psw_forgot">Verify code</div>
+                            <div class="login_small_psw">An authentication code has been sent to your email.</div>
+                        </div>
+
+                        <div class="d-flex">
+                            <input class="email_login" placeholder="7789BM6X" required type="text">
+                            <div><img class="hidden_login" src="eye.png"></div>
+                        </div>
+                        <div><img class="lil_icones" src="entecr code.png"></div>
+
+                        <div>Didn't receive a code? <span class="mouse">Resend</span></div>
+
+                        <div>
+                            <div><input class="login_btn_psw" type="submit" value="verify"></div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div><img class="login_img" src="Screenshot 2023-04-06 at 19.11.54.png"></div>
+            </div>
+        </div>
+
+        <script>
+            let emailinput = document.querySelector('.email_login');
+            document.querySelector('.login_btn_psw').onclick = function() {
+                if(emailinput.value != '' && emailinput.value != ' '){
+                    location.href = 'set a psw.html';
+                }else{
+                    emailinput.style.border = '2px solid red';
+                }
+            };
+
+            document.querySelector('#backf').onclick = function() {
+                location.href = 'forgot psw.html';
+            };
+
+            document.querySelector('.logo_login').onclick = function() {
+                location.href = 'index.html';
+            };
+        </script>
+    </body>
+
+</html>
