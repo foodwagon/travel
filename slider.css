@@ -1,0 +1,102 @@
+.min-slider,
+.max-slider {
+    -webkit-appearance: none;
+    background-color: #262626;
+    width: 20%;
+    position: absolute;
+}
+
+.min-slider::-webkit-slider-thumb,
+.max-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  background-color: #8DD3BB;
+  border-radius: 50%;
+  cursor: pointer;
+  position: relative;
+  z-index: 2;
+  margin-top: -9px;
+}
+
+.min-slider::-webkit-slider-thumb:before,
+.max-slider::-webkit-slider-thumb:before {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background-color: #112211;
+  position: absolute;
+}
+
+.min-slider::-webkit-slider-runnable-track,
+.max-slider::-webkit-slider-runnable-track {
+  height: 1.5px;
+  background-color: #112211;
+}
+
+.min-slider::-moz-range-thumb,
+.max-slider::-moz-range-thumb {
+  width: 20px;
+  height: 20px;
+  background-color: #8DD3BB;
+  border-radius: 50%;
+  cursor: pointer;
+  position: relative;
+  z-index: 2;
+}
+
+.min-slider::-moz-range-thumb:before,
+.max-slider::-moz-range-thumb:before {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background-color: #112211;
+}
+
+.min-slider::-moz-range-track,
+.max-slider::-moz-range-track {
+  height: 2.5px;
+  background-color: #112211;
+}
+
+.min-slider::-ms-thumb,
+.max-slider::-ms-thumb {
+  width: 20px;
+  height: 20px;
+  background-color: #8DD3BB;
+  border-radius: 50%;
+  cursor: pointer;
+  position: relative;
+  z-index: 2;
+}
+
+.min-slider::-ms-thumb:before,
+.max-slider::-ms-thumb:before {
+  content: "";
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background-color: #112211;
+  position: absolute;
+}
+
+.min-slider::-ms-track,
+.max-slider::-ms-track {
+  height: 5px;
+  background-color: #112211;
+}
+
+.min-slider::-ms-fill-lower,
+.max-slider::-ms-fill-upper {
+  background-color: #8DD3BB;
+}
+
+.min-slider::-webkit-slider-thumb:hover,
+.max-slider::-webkit-slider-thumb:hover,
+.min-slider::-moz-range-thumb:hover,
+.max-slider::-moz-range-thumb:hover,
+.min-slider::-ms-thumb:hover,
+.max-slider::-ms-thumb:hover {
+  background-color: #8DD3BB;
+}
